@@ -74,7 +74,7 @@ div#formulario > p {
 form > div.campo {
     background-color: var(--cor2);
     width: 100%;
-    display: block;
+    display: flex;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
@@ -100,7 +100,6 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
 }
 
 div.campo > input:focus-within {
